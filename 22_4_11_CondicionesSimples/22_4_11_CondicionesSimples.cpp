@@ -17,7 +17,7 @@ int main()
      cout << "consultorio medico\n";
      cout << "Ingresa tu nombre\n";
      cin >> Nombre;
-     if (Nombre == "Ruben")
+     if (Nombre == "ruben")
      {
      cout << "nombre correcto\n";
      cout << "ingresa tu ciudad\n";
@@ -45,11 +45,11 @@ int main()
      if (CP == 45538)
      {
      cout << "CP correcto\n";
-     cout << "es alergico a algun medicamento o comida?, Escriba 1 si padece, 2 si no padece\n";
+     cout << "es alergico a algun medicamento o comida?, Escriba 0 si padece, 1 si no padece\n";
      cin >> alergia;
      if (alergia == false)
      {
-     cout << "coincide\n";
+     cout << "todo esta perfecto\n";
      }
      else
      {

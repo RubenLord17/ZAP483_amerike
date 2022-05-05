@@ -7,7 +7,7 @@ int main()
 {
 	int respuesta;
 	std::cout << "Tratare de adivinar el deporte que estas pensando" << std::endl;
-	std::cout << "responde 0 si es no, responde 1 si es si" << std::endl;
+	std::cout << "responde 2 si es no, responde 1 si es si" << std::endl;
 	std::cout << "es por tiempo?" << std::endl;
 	std::cin >> respuesta;
 	if (respuesta == 1)
@@ -57,7 +57,7 @@ int main()
 					}
 					else
 					{
-						std::cout << "Atletismo" << std::endl;
+						std::cout << "Atletismo en equipo" << std::endl;
 					}
 				}
 				else
@@ -67,12 +67,12 @@ int main()
 			}
 			else
 			{
-				std::cout << "Ajedrez" << std::endl;
+				std::cout << "Footbal" << std::endl;
 			}
 		}
 		else
 		{
-			std::cout << "Eres gamer de GTA" << std::endl;
+			std::cout << "Jugador de Lol" << std::endl;
 		}
 	}
 }
