@@ -36,16 +36,15 @@ int main()
     {
         for (int j = 0; j < (sizeof(matriz[0]) / sizeof(matriz[0][0])); j++)
         {
-            matriz[i][j]=rand() % 10;
+           // matriz[i][j]=rand() % 10;
             std::cout << matriz[i][j];
         }
         cout << "\n";
         
     }
-    */
 
 
-    /*
+    
     int matriz[5][5] = { {1,1,1,1,1},{1,1,1,1,1},{1,1,1,1,1} };
     for (int i = 0; i < (sizeof(matriz) / sizeof(matriz[0])); i++)
     {
@@ -69,6 +68,7 @@ int main()
 
     }
     */
+    
 
     int matriz[10][10] = { {1,1,1,1,1,1,1,1,1,1},{1,1,1,1,1,1,1,1,1,1},{1,1,1,1,1,1,1,1,1,1} };
     for (int i = 0; i < (sizeof(matriz) / sizeof(matriz[0])); i++)
